@@ -9,10 +9,10 @@ app = Flask(__name__)
 @app.route("/")
 def home():
 
-    name = "" # escreva seu nome
-    age = "" # escreva sua idade
+    nome = "" # escreva seu nome
+    idade = "" # escreva sua idade
 
-    return render_template('index.html' , name = name , age = age)
+    return render_template('index.html' , nome = nome , idade = idade)
 
 # defina a rota para a página do pai
 
